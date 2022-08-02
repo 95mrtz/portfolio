@@ -8,35 +8,37 @@ import Skills from "./components/Skills";
 
 const App = () => {
   return (
-    <div className="min-h-full min-w-full bg-slate-800 text-slate-50">
-      <header className="h-20 flex flex-row justify-center  items-center bg-slate-400 rounded-b-lg">
+    <div className="min-h-full min-w-full bg-gray-900 text-slate-50">
+      <header className="h-20 flex flex-row justify-center  items-center bg-gray-800 text-emerald-400 rounded-b-lg">
         <nav>
           <ul className="flex flex-row justify-center">
             <li>
               <NavLink
                 to="/"
-                className={`${({ isActive }) => (isActive ? 'underline underline-offset-4 font-bold' : undefined)} mx-3 `}
+                className={`${({ isActive }) =>
+                  isActive ? "text-2xl" : "text-xl"} mx-3 `}
               >
                 Inicio
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about">
-                {({ isActive }) => (
-                  <span className={`${({ isActive }) =>
-                  isActive ? 'underline underline-offset-4 font-bold' : undefined
-                }  mx-3 `}>
-                    Sobre mi
-                  </span>
-                )}
+              <NavLink
+                to="/about"
+                className={`${({ isActive }) =>
+                  isActive ? "text-2xl" : "text-xl"}  mx-3 `}
+              >
+                Sobre mi
               </NavLink>
             </li>
             <li>
               <NavLink to="/skills">
                 {({ isActive }) => (
-                  <span className={`${({ isActive }) =>
-                  isActive ? 'underline underline-offset-4 font-bold' : undefined
-                }  mx-3 `}>
+                  <span
+                    className={`${({ isActive }) =>
+                      isActive
+                        ? "underline underline-offset-4 font-bold"
+                        : undefined}  mx-3 `}
+                  >
                     Habilidades
                   </span>
                 )}
@@ -44,10 +46,13 @@ const App = () => {
             </li>
             <li>
               <NavLink to="/projects">
-              {({ isActive }) => (
-                  <span className={`${({ isActive }) =>
-                  isActive ? 'underline underline-offset-4' : undefined
-                }  mx-3 `}>
+                {({ isActive }) => (
+                  <span
+                    className={`${({ isActive }) =>
+                      isActive
+                        ? "underline underline-offset-4"
+                        : undefined}  mx-3 `}
+                  >
                     Proyectos
                   </span>
                 )}
@@ -55,10 +60,13 @@ const App = () => {
             </li>
             <li>
               <NavLink to="/contact">
-              {({ isActive }) => (
-                  <span className={`${({ isActive }) =>
-                  isActive ? 'underline underline-offset-4' : undefined
-                }  mx-3 `}>
+                {({ isActive }) => (
+                  <span
+                    className={`${({ isActive }) =>
+                      isActive
+                        ? "underline underline-offset-4"
+                        : undefined}  mx-3 `}
+                  >
                     Contacto
                   </span>
                 )}
