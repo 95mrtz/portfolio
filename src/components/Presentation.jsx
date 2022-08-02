@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Presentation = () => {
   return (
-    <div className="h-[calc(100vh-80px)] grid grid-rows-3 gap-2">
+    <div className="h-[calc(100vh-80px)] grid grid-rows-3 gap-2 animate-presentation">
       <div className="row-span-1 place-self-center">
         <h1 className="row-span-1 place-self-center my-3 font-normal text-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-8xl text-gray-200">
           <span className="font-semibold text-emerald-400">M</span>anuel{" "}

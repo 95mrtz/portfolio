@@ -12,7 +12,7 @@ const Aboutme = () => {
             Hola, mi nombre es Troy McClure, tal vez me recuerden de... no, es broma, mi nombre Manuel Ortiz, soy de Nuequ&eacute;n, Argentina. </p>
             <p className="text-sm	md:text-lg">
             Soy desarrollador frontend y estoy buscando mi primera oportunidad
-            laboral en IT, estudie la Tecnicatura en desarollo web en la <a className="underline"
+            laboral en IT, estudie la Tecnicatura en desarollo web en la <a className="underline underline-offset-4 decoration-emerald-400"
               href="https://www.fi.uncoma.edu.ar/index.php/academica/carreras-fai/tecnicatura/"
               target="_blank"
             >Universidad Nacional del Comahue</a> , durante la carrera aprendi diferentes tecnologias lo cual hizo

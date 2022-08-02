@@ -12,64 +12,50 @@ const App = () => {
       <header className="h-20 flex flex-row justify-center items-center bg-gray-800 text-emerald-400 rounded-b-lg">
         <nav>
           <ul className="flex flex-row flex-wrap justify-center">
-            <li>
+            <li className="mx-3 ">
               <NavLink
                 to="/"
-                className={`${({ isActive }) =>
-                  isActive ? "text-2xl" : "text-xl"} mx-3 `}
+                className={({ isActive }) =>
+                  isActive ? "text-2xl" : "text-xl"
+                }
               >
                 Inicio
               </NavLink>
             </li>
-            <li>
+            <li className="mx-3 ">
               <NavLink
                 to="/about"
-                className={`${({ isActive }) =>
-                  isActive ? "text-2xl" : "text-xl"}  mx-3 `}
+                className={({ isActive }) =>
+                  isActive ? "text-2xl" : "text-xl"
+                }
               >
                 Sobre mi
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/skills">
-                {({ isActive }) => (
-                  <span
-                    className={`${({ isActive }) =>
-                      isActive
-                        ? "underline underline-offset-4 font-bold"
-                        : undefined}  mx-3 `}
-                  >
-                    Habilidades
-                  </span>
-                )}
+            <li className="mx-3 ">
+              <NavLink to="/skills"
+              className={({ isActive }) =>
+                  isActive ? "text-2xl" : "text-xl"
+                }
+              >
+                Habilidades
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/projects">
-                {({ isActive }) => (
-                  <span
-                    className={`${({ isActive }) =>
-                      isActive
-                        ? "underline underline-offset-4"
-                        : undefined}  mx-3 `}
-                  >
-                    Proyectos
-                  </span>
-                )}
+            <li className="mx-3 ">
+              <NavLink to="/projects"
+                className={({ isActive }) =>
+                isActive ? "text-2xl" : "text-xl"
+              }
+            >
+              Proyectos
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/contact">
-                {({ isActive }) => (
-                  <span
-                    className={`${({ isActive }) =>
-                      isActive
-                        ? "underline underline-offset-4"
-                        : undefined}  mx-3 `}
-                  >
-                    Contacto
-                  </span>
-                )}
+            <li className="mx-3 ">
+              <NavLink to="/contact"className={({ isActive }) =>
+                  isActive ? "text-2xl" : "text-xl"
+                }
+              >
+                Contacto
               </NavLink>
             </li>
           </ul>
