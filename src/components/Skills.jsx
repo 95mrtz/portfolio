@@ -18,14 +18,14 @@ import { Link } from "react-router-dom";
 
 const Skills = () => {
   return (
-    <div className="h-[calc(100vh-80px)] grid grid-rows-6 gap-2">
-      <h1 className="row-span-1 place-self-center mt-5 text-center font-normal text-8xl text-emerald-400">
+    <div className="h-full md:h-[calc(100vh-80px)] grid grid-rows-6 gap-2">
+      <h1 className="row-span-1 place-self-center text-center font-normal text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-8xl text-emerald-400">
         Habilidades
       </h1>
-      <h1 className="row-span-1 place-self-center mt-5 text-center font-normal text-4xl text-gray-200">
+      <h1 className="row-span-1 place-self-center text-center font-normal text-xl sm:text-2xl md:text-4xl text-gray-200">
         A la fecha, estas son las tecnologias y herramientas con las que trabajo
       </h1>
-      <div className="row-span-3 place-self-center w-3/4 p-5 rounded-lg bg-gray-800">
+      <div className="row-span-3 place-self-center w-4/5 lg:w-3/4 p-5 rounded-lg bg-gray-800">
         <ul className="flex flex-row flex-wrap justify-center items-center">
           <li className="m-3 md:m-6  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             {" "}
@@ -119,7 +119,7 @@ const Skills = () => {
           </li>
         </ul>
         <div className="my-4 flex flex-row justify-center items-center">
-          <h4 className="text-emerald-400 text-xl font-semibold ">
+          <h4 className="text-emerald-400 text-xl text-center font-semibold ">
             Y un futuro habran mas...
           </h4>
         </div>

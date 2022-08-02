@@ -11,14 +11,14 @@ const Presentation = () => {
           <span className="font-semibold text-emerald-400">M</span>anuel{" "}
           <span className="font-semibold text-emerald-400">O</span>rtiz{" "}
         </h1>
-        <h3 className="mt-5 row-span-1 text-center font-mono text-lg md:text-xl lg:text-2xl xl:text-4xl">{`< frontend developer /> `}</h3>
+        <h3 className="mt-5 row-span-1 text-center font-mono text-lg md:text-3xl lg:text-2xl xl:text-4xl">{`< frontend developer /> `}</h3>
         
       </div>
 
       <ul className="row-span-1 my-3 flex flex-row justify-around lg:justify-evenly items-center">
           <li className="mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-150 duration-300">
             <a href="https://github.com/hctmanuelortiz" target="_blank">
-              <FaGithub className="text-5xl hover:text-emerald-400" />
+              <FaGithub className="text-3xl md:text-5xl hover:text-emerald-400" />
             </a>
           </li>
           <li className="mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-150 duration-300">
@@ -27,13 +27,13 @@ const Presentation = () => {
               href="https://www.linkedin.com/in/hctmanuelortiz/"
               target="_blank"
             >
-              <FaLinkedin className="text-5xl hover:text-emerald-400" />
+              <FaLinkedin className="text-3xl md:text-5xl hover:text-emerald-400" />
             </a>
           </li>
           <li className="mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-150 duration-300">
             {" "}
             <a href="mailto:hctmanuelortizdev@gmail.com">
-              <FaEnvelope className="text-5xl hover:text-emerald-400" />
+              <FaEnvelope className="text-3xl md:text-5xl hover:text-emerald-400" />
             </a>
           </li>
         </ul>

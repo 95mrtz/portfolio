@@ -23,24 +23,24 @@ const Projects = () => {
     <div className="h-full">
       <div className="flex flex-col justify-center items-center">
         <div className="my-3 text-center">
-          <h1 className="mb-7 font-normal text-8xl text-emerald-400 ">
+          <h1 className="mb-7 font-normal text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-8xl text-emerald-400 ">
             Proyectos
           </h1>
-          <h3 className="mb-7 font-normal text-3xl">
+          <h3 className="mb-7 px-3 font-normal text-xl sm:text-2xl md:text-4xl">
             {" "}
             Estos son mis proyectos principales{" "}
           </h3>
         </div>
 
-        <div className="flex flex-col gap-4 w-1/2 md:w-3/5 p-5 rounded-lg bg-gray-800">
-          <div className="grid grid-cols-2 p-4 rounded-lg bg-gray-600">
+        <div className="flex flex-col gap-4 w-4/5 md:w-3/5 p-2 md:p-5 rounded-lg bg-gray-800">
+          <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 p-2 lg:p-4 rounded-lg bg-gray-600">
             <img
               src={page1}
               alt="imagen de sitio web"
-              className="col-span-1 place-self-center rounded-md w-96 h-48"
+              className="col-span-1 place-self-center rounded-md w-96 h-36 md:h-48"
             />
             <div className="col-span-1 flex flex-col justify-around items-center">
-              <p className="text-2xl text-emerald-400 font-semibold mt-2">
+              <p className="text-xl md:text-2xl text-center text-emerald-400 font-semibold mt-2">
                 {" "}
                 Temperature converter{" "}
               </p>
@@ -75,14 +75,14 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 p-4 rounded-lg bg-gray-600">
+          <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 p-2 lg:p-4 rounded-lg bg-gray-600">
             <img
               src={page2}
               alt="imagen de sitio web"
-              className="col-span-1 place-self-center rounded-md w-96 h-48"
+              className="col-span-1 place-self-center rounded-md w-96 h-36 md:h-48"
             />
             <div className="col-span-1 flex flex-col justify-around items-center">
-              <p className="text-2xl text-emerald-400 font-semibold mt-2">
+              <p className="text-xl md:text-2xl text-center text-emerald-400 font-semibold mt-2">
                 {" "}
                 Material Todoist{" "}
               </p>
@@ -117,14 +117,14 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 p-4 rounded-lg bg-gray-600">
+          <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 p-2 lg:p-4 rounded-lg bg-gray-600">
             <img
               src={page3}
               alt="imagen de sitio web"
-              className="col-span-1 place-self-center rounded-md w-96 h-48"
+              className="col-span-1 place-self-center rounded-md w-96 h-36 md:h-48"
             />
             <div className="col-span-1 flex flex-col justify-around items-center">
-              <p className="text-2xl text-emerald-400 font-semibold mt-2">
+              <p className="text-xl text-center md:text-2xl text-emerald-400 font-semibold mt-2">
                 {" "}
                 Pokedex with PokeAPI{" "}
               </p>
@@ -159,18 +159,18 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 p-4 rounded-lg bg-gray-600">
+          <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 p-2 lg:p-4 rounded-lg bg-gray-600">
             <img
               src={page4}
               alt="imagen de sitio web"
-              className="col-span-1 place-self-center rounded-md w-96 h-48"
+              className="col-span-1 place-self-center rounded-md w-96 h-36 md:h-48"
             />
             <div className="col-span-1 flex flex-col justify-around items-center">
               <p className="text-xl text-center text-emerald-400 font-semibold mt-2">
                 {" "}
                 Tip calculator app - Challenge by Frontend Mentor{" "}
               </p>
-              <ul className="row-span-1 col-span-2 flex flex-row justify-center items-center">
+              <ul className="my-5 row-span-1 col-span-2 flex flex-row justify-center items-center">
                 <li className="mx-4">
                   <SiHtml5 className="text-4xl text-amber-600	hover:text-amber-700" />
                 </li>
@@ -204,8 +204,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="my-7 flex flex-col justify-around items-center">
-          <h3 className="font-normal text-center text-2xl text-gray-200">
+        <div className="my-7 px-3 flex flex-col justify-around items-center">
+          <h3 className="font-normal text-center text-xl md:text-2xl text-gray-200">
             {" "}
             Siempre estoy haciendo algo nuevo (si me gusta mucho, lo veras aca)
             si no, estará en github{" "}

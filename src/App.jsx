@@ -9,9 +9,9 @@ import Skills from "./components/Skills";
 const App = () => {
   return (
     <div className="min-h-full min-w-full bg-gray-900 text-slate-50">
-      <header className="h-20 flex flex-row justify-center  items-center bg-gray-800 text-emerald-400 rounded-b-lg">
+      <header className="h-20 flex flex-row justify-center items-center bg-gray-800 text-emerald-400 rounded-b-lg">
         <nav>
-          <ul className="flex flex-row justify-center">
+          <ul className="flex flex-row flex-wrap justify-center">
             <li>
               <NavLink
                 to="/"
