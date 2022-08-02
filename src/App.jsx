@@ -8,9 +8,9 @@ import Skills from "./components/Skills";
 
 const App = () => {
   return (
-    <div className="w-full bg-slate-800 text-slate-50">
-      <header className="flex flex-row justify-center bg-slate-400 rounded-b-lg">
-        <nav className="my-4">
+    <div className="min-h-full min-w-full bg-slate-800 text-slate-50">
+      <header className="h-20 flex flex-row justify-center  items-center bg-slate-400 rounded-b-lg">
+        <nav>
           <ul className="flex flex-row justify-center">
             <li>
               <NavLink
