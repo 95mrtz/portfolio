@@ -2,7 +2,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
-  FaTwitter,
+  FaFileInvoice,
   FaHandSpock,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div className="h-full md:h-[calc(100vh-80px)] grid grid-rows-4 gap-2 sm:gap-4">
       <div className="row-span-1 place-self-center px-3 flex flex-col justify-center items-center">
-        <h1 className="mb-7 font-normal text-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-8xl text-gray-200">
+        <h1 className="mb-7 font-normal text-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-8xl text-emerald-400">
           Contacto
         </h1>
         <h4 className="text-center text-lg sm:text-2xl lg:text-4xl">
@@ -55,12 +55,12 @@ const Contact = () => {
 
         <button className="px-2 py-5 m-2 rounded-lg transition ease-in-out delay-150 bg-gray-600 hover:-translate-y-1 hover:scale-110 hover:bg-emerald-400 duration-300">
           <a
-            href="https://twitter.com/hctmanuelortiz"
+            href="https://drive.google.com/file/d/1rH0lTm7PNC8iiU6f1FsBkveBSFCGrmEB/view?usp=sharing"
             target="_blank"
             className="flex flex-row justify-around items-center"
           >
-            <p>@hctmanuelortiz</p>{" "}
-            <FaTwitter className="text-2xl md:text-5xl" />
+            <p>Curriculum Vitae</p>{" "}
+            <FaFileInvoice className="text-2xl md:text-5xl" />
           </a>
         </button>
       </div>

@@ -9,7 +9,7 @@ const Aboutme = () => {
       </div>
         <div className="row-span-4 md:row-span-2 place-self-center w-5/6 md:w-3/4 p-5 rounded-lg bg-gray-800">
           <p className="mb-3 text-sm md:text-lg">
-            Hola, mi nombre es Troy McClure, tal vez me recuerden de... no, es broma, mi nombre Manuel Ortiz, soy de Nuequ&eacute;n, Argentina. </p>
+            Hola, mi nombre es Troy McClure, tal vez me recuerden de portfolios como... no, es broma, mi nombre Manuel Ortiz, soy de Nuequ&eacute;n, Argentina. </p>
             <p className="text-sm	md:text-lg">
             Soy desarrollador frontend y estoy buscando mi primera oportunidad
             laboral en IT, estudie la Tecnicatura en desarollo web en la <a className="underline underline-offset-4 decoration-emerald-400"

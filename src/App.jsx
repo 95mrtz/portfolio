@@ -5,6 +5,8 @@ import Aboutme from "./components/Aboutme.jsx";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
+import NotFound from "./components/NotFound";
+
 
 const App = () => {
   return (
@@ -67,6 +69,7 @@ const App = () => {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
