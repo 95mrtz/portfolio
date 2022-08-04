@@ -18,8 +18,8 @@ import { Link } from "react-router-dom";
 
 const NotFound = () => {
   return (
-    <div className="h-full md:h-[calc(100vh-80px)] flex flex-col justify-around items-center gap-2">
-      <h1 className="row-span-1 place-self-center text-center font-normal text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-8xl text-emerald-400">
+    <div className="h-full lg:h-[calc(100vh-80px)] flex flex-col justify-around items-center">
+      <h1 className="mt-6 text-center font-normal text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-8xl text-emerald-400">
         Parece que acá no hay nada...
       </h1>
         <svg
