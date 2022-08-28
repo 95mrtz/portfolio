@@ -120,7 +120,7 @@ const Skills = () => {
         </ul>
         <div className="my-4 flex flex-row justify-center items-center">
           <h4 className="text-emerald-400 text-xl text-center font-semibold ">
-            Y un futuro habran mas...
+            Y en un futuro habran mas...
           </h4>
         </div>
       </div>

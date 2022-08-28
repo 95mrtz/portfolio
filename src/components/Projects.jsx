@@ -3,6 +3,9 @@ import page1 from "../assets/page1.png";
 import page2 from "../assets/page2.png";
 import page3 from "../assets/page3.png";
 import page4 from "../assets/page4.png";
+import page5 from "../assets/page5.png";
+import page6 from "../assets/page6.png";
+
 
 // iconos
 import {
@@ -14,6 +17,8 @@ import {
   SiCss3,
   SiJavascript,
   SiGithub,
+  SiTypescript,
+  SiLeaflet
 } from "react-icons/si";
 import { IoSparklesSharp, IoArrowDownOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -33,6 +38,94 @@ const Projects = () => {
         </div>
 
         <div className="flex flex-col gap-4 w-4/5 md:w-3/5 p-2 md:p-5 rounded-lg bg-gray-800">
+        <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 p-2 lg:p-4 rounded-lg bg-gray-600">
+            <img
+              src={page6}
+              alt="imagen de sitio web"
+              className="col-span-1 place-self-center rounded-md w-96 h-36 md:h-48"
+            />
+            <div className="col-span-1 flex flex-col justify-around items-center">
+              <p className="text-xl text-center md:text-2xl text-emerald-400 font-semibold mt-2">
+                {" "}
+                IP Address Tracker - Frontendmentor Challenge
+              </p>
+              <ul className="row-span-1 col-span-2 flex flex-row justify-center items-center">
+                <li className="mx-4">
+                  <SiReact title="ReactJS" className="text-4xl text-blue-400 hover:text-blue-500" />
+                </li>
+                <li className="mx-4">
+                <SiTailwindcss title="TailwindCSS" className="text-4xl text-sky-500	hover:text-sky-600	" />
+                </li>
+                <li className="mx-4">
+                <SiLeaflet title="Leaflet" className="text-4xl text-green-500	hover:text-green-600	" />
+                </li>
+              </ul>
+              <ul className="row-span-1 col-span-2 flex flex-row justify-center items-center">
+                <li className="mx-4">
+                  <a
+                    href="https://github.com/hctmanuelortiz/ip-address-tracker"
+                    target="_blank"
+                  >
+                    <SiGithub title="repository - github" className="text-4xl text-slate-200	hover:text-slate-300" />
+                  </a>
+                </li>
+                <li className="mx-4">
+                  <a
+                    href="http://ip-address-tracker-challenge-drab.vercel.app/"
+                    target="_blank"
+                    className="flex flex-row font-semibold italic"
+                  >
+                    Live Site{" "}
+                    <IoSparklesSharp className="mx-2 text-amber-400" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 p-2 lg:p-4 rounded-lg bg-gray-600">
+            <img
+              src={page5}
+              alt="imagen de sitio web"
+              className="col-span-1 place-self-center rounded-md w-96 h-36 md:h-48"
+            />
+            <div className="col-span-1 flex flex-col justify-around items-center">
+              <p className="text-xl text-center md:text-2xl text-emerald-400 font-semibold mt-2">
+                {" "}
+                Cognizant Softvision challenge
+              </p>
+              <ul className="row-span-1 col-span-2 flex flex-row justify-center items-center">
+                <li className="mx-4">
+                  <SiReact title="ReactJS" className="text-4xl text-blue-400 hover:text-blue-500" />
+                </li>
+                <li className="mx-4">
+                  <SiTailwindcss title="TailwindCSS" className="text-4xl text-sky-500	hover:text-sky-600	" />
+                </li>
+                <li className="mx-4">
+                  <SiTypescript title="Typescript" className="text-4xl text-blue-500	hover:text-blue-600" />
+                </li>
+              </ul>
+              <ul className="row-span-1 col-span-2 flex flex-row justify-center items-center">
+                <li className="mx-4">
+                  <a
+                    href="https://github.com/hctmanuelortiz/cognizant-softvision-challenge"
+                    target="_blank"
+                  >
+                    <SiGithub title="repository - github" className="text-4xl text-slate-200	hover:text-slate-300" />
+                  </a>
+                </li>
+                <li className="mx-4">
+                  <a
+                    href="http://cognizant-softvision-challenge-beta.vercel.app/"
+                    target="_blank"
+                    className="flex flex-row font-semibold italic"
+                  >
+                    Live Site{" "}
+                    <IoSparklesSharp className="mx-2 text-amber-400" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
           <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 p-2 lg:p-4 rounded-lg bg-gray-600">
             <img
               src={page1}
@@ -42,28 +135,31 @@ const Projects = () => {
             <div className="col-span-1 flex flex-col justify-around items-center">
               <p className="text-xl md:text-2xl text-center text-emerald-400 font-semibold mt-2">
                 {" "}
-                Temperature converter{" "}
+                Adivina el Pokemon!
               </p>
               <ul className="row-span-1 col-span-2 flex flex-row justify-center items-center">
                 <li className="mx-4">
-                  <SiReact className="text-4xl text-blue-400 hover:text-blue-500" />
+                  <SiReact title="ReactJS" className="text-4xl text-blue-400 hover:text-blue-500" />
                 </li>
                 <li className="mx-4">
-                  <SiTailwindcss className="text-4xl text-sky-500	hover:text-sky-600	" />
+                  <SiTypescript title="Typescript" className="text-4xl text-blue-500	hover:text-blue-600" />
+                </li>
+                <li className="mx-4">
+                  <SiCss3 title="CSS" className="text-4xl  text-blue-400 hover:text-blue-500" />
                 </li>
               </ul>
               <ul className="row-span-1 col-span-2 flex flex-row justify-center items-center">
                 <li className="mx-4">
                   <a
-                    href="https://github.com/hctmanuelortiz/temperature-converter"
+                    href="https://github.com/hctmanuelortiz/guess-pokemon"
                     target="_blank"
                   >
-                    <SiGithub className="text-4xl text-slate-200	hover:text-slate-300" />
+                    <SiGithub title="repository - github" className="text-4xl text-slate-200	hover:text-slate-300" />
                   </a>
                 </li>
                 <li className="mx-4">
                   <a
-                    href="http://temperature-converter-gray.vercel.app/"
+                    href="https://game-guess-pokemon.vercel.app/"
                     target="_blank"
                     className="flex flex-row font-semibold italic"
                   >
@@ -84,14 +180,14 @@ const Projects = () => {
             <div className="col-span-1 flex flex-col justify-around items-center">
               <p className="text-xl md:text-2xl text-center text-emerald-400 font-semibold mt-2">
                 {" "}
-                Material Todoist{" "}
+                Material ToDo{" "}
               </p>
               <ul className="row-span-1 col-span-2 flex flex-row justify-center items-center">
                 <li className="mx-4">
-                  <SiReact className="text-4xl text-blue-400 hover:text-blue-500" />
+                  <SiReact title="ReactJS" className="text-4xl text-blue-400 hover:text-blue-500" />
                 </li>
                 <li className="mx-4">
-                  <SiMaterialui className="text-4xl text-sky-400	hover:text-sky-500" />
+                  <SiMaterialui title="Material UI" className="text-4xl text-sky-400	hover:text-sky-500" />
                 </li>
               </ul>
               <ul className="row-span-1 col-span-2 flex flex-row justify-center items-center">
@@ -100,7 +196,7 @@ const Projects = () => {
                     href="https://github.com/hctmanuelortiz/material-ToDo"
                     target="_blank"
                   >
-                    <SiGithub className="text-4xl text-slate-200	hover:text-slate-300" />
+                    <SiGithub title="repository - github"  className="text-4xl text-slate-200	hover:text-slate-300" />
                   </a>
                 </li>
                 <li className="mx-4">
@@ -130,10 +226,10 @@ const Projects = () => {
               </p>
               <ul className="row-span-1 col-span-2 flex flex-row justify-center items-center">
                 <li className="mx-4">
-                  <SiReact className="text-4xl text-blue-400 hover:text-blue-500" />
+                  <SiReact title="ReactJS" className="text-4xl text-blue-400 hover:text-blue-500" />
                 </li>
                 <li className="mx-4">
-                  <SiStyledcomponents className="text-6xl text-amber-400	hover:text-amber-500" />
+                  <SiStyledcomponents title="Styled Components" className="text-6xl text-amber-400	hover:text-amber-500" />
                 </li>
               </ul>
               <ul className="row-span-1 col-span-2 flex flex-row justify-center items-center">
@@ -142,7 +238,7 @@ const Projects = () => {
                     href="https://github.com/hctmanuelortiz/pokedex-v1"
                     target="_blank"
                   >
-                    <SiGithub className="text-4xl text-slate-200	hover:text-slate-300" />
+                    <SiGithub title="repository - github"  className="text-4xl text-slate-200	hover:text-slate-300" />
                   </a>
                 </li>
                 <li className="mx-4">
@@ -172,13 +268,13 @@ const Projects = () => {
               </p>
               <ul className="my-5 row-span-1 col-span-2 flex flex-row justify-center items-center">
                 <li className="mx-4">
-                  <SiHtml5 className="text-4xl text-amber-600	hover:text-amber-700" />
+                  <SiHtml5 title="HTML" className="text-4xl text-amber-600	hover:text-amber-700" />
                 </li>
                 <li className="mx-4">
-                  <SiCss3 className="text-4xl  text-blue-400 hover:text-blue-500" />
+                  <SiCss3 title="CSS" className="text-4xl  text-blue-400 hover:text-blue-500" />
                 </li>
                 <li className="mx-4">
-                  <SiJavascript className="text-4xl text-amber-300 hover:text-amber-400" />
+                  <SiJavascript title="Javascript" className="text-4xl text-amber-300 hover:text-amber-400" />
                 </li>
               </ul>
               <ul className="row-span-1 col-span-2 flex flex-row justify-center items-center">
@@ -187,7 +283,7 @@ const Projects = () => {
                     href="https://github.com/hctmanuelortiz/tip-calculator-app"
                     target="_blank"
                   >
-                    <SiGithub className="text-4xl text-slate-200	hover:text-slate-300" />
+                    <SiGithub title="repository - github"  className="text-4xl text-slate-200	hover:text-slate-300" />
                   </a>
                 </li>
                 <li className="mx-4">
@@ -217,7 +313,7 @@ const Projects = () => {
           >
             <button className="py-3 px-6 rounded-md flex flex-row justify-around items-center transition ease-in-out delay-150 bg-gray-600 hover:-translate-y-1 hover:scale-110 hover:bg-emerald-400 duration-300">
               Mas proyectos{" "}
-              <SiGithub className="ml-3 text-3xl text-neutral-200	hover:text-neutral-300" />
+              <SiGithub title="repository - github"  className="ml-3 text-3xl text-neutral-200	hover:text-neutral-300" />
             </button>
           </a>
         </div>

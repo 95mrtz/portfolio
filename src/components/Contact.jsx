@@ -20,7 +20,7 @@ const Contact = () => {
         </h4>
       </div>
 
-      <div className="row-span-2 place-self-center w-3/4 p-2 md:p-7 grid  lg:grid-cols-2 grid-rows-4 lg:grid-rows-2 gap-3 md:gap-6 rounded-lg bg-gray-400">
+      <div className="row-span-2 place-self-center w-3/4 p-2 lg:p-5 grid  md:grid-cols-2 grid-rows-4 md:grid-rows-2 gap-3 md:gap-6 rounded-lg bg-gray-400">
         <button className="px-2 py-5 m-2 rounded-lg transition ease-in-out delay-150 bg-gray-600 hover:-translate-y-1 hover:scale-110 hover:bg-emerald-400 duration-300">
           <a
             href="https://github.com/hctmanuelortiz"
@@ -72,7 +72,7 @@ const Contact = () => {
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
           <FaHandSpock
             title="Live long and prosper"
-            className="text-3xl text-emerald-400"
+            className="text-3xl text-emerald-400 hover:animate-ping"
           />
         </a>
       </div>
